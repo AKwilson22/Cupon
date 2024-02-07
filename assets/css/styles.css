@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  } 
+
+  /* Colores:
+● #212529;
+● #707070;
+● #F8F9FA o var(--light);
+● #fff o var(--white);
+● #28a745 o var(--success); */
+
+.text-color-1{
+    color: #212529 ;
+}
+.text-color-2{
+    color: #707070;
+    fill: #707070;
+}
+
+
+
+
+.bg-body-success {
+    --bs-bg-opacity: 1;
+    background-color: #28a745;
+}
+.navbar-toggler{
+    border: solid .5px rgba(255, 255, 255, 58%);
+}
+.addres-text{
+    font-size: .8rem;
+}
+.text-newprice{
+    font-size: 1.25rem !important;
+    color: #28a745;
+}
+.text-right{
+    text-align: end;
+}
+.card-footer{
+    background-color: #ffffff00;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
